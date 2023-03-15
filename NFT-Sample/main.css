@@ -4,15 +4,8 @@ body{
     
 }
 
-
-
 .card-container{
    display: inline-block;
-
-    
-
- 
-    
 }
 .main-card{
     position: relative;
@@ -54,7 +47,7 @@ background-image: url(./img/img-3.jpg);
     
 }
 
-.image:hover::before{
+.image1:hover::before, .image2:hover::before, .image3:hover::before, .image4:hover::before{
     content: " ";
     width:302px;
     height: 302px;
@@ -64,7 +57,7 @@ background-image: url(./img/img-3.jpg);
     position: absolute;   
 
 }
-.image:hover::after{
+.image1:hover::after, .image2:hover::after, .image3:hover::after, .image4:hover::after{
     content: url(icon-view.svg);
     position: absolute;
     left: 43%;
